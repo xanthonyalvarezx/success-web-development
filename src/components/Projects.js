@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
-import { List as li } from 'semantic-ui-react'
+
 import '../Stylesheets/PreviousProjects.css'
 
 
 class projects extends Component {
-    constructor(props) {
-        super(props)
+    
 
 
-    }
+    
 
 
 

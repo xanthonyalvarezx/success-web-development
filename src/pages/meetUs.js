@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../Stylesheets/MeetUs.css'
 import Anthony from '../images/Anthony.jpg'
-import { Container, Header } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 class MeetUS extends Component {
 

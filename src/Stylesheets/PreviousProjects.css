@@ -29,7 +29,7 @@ h1{
 #projectList{
     display: flex;
    
-    background-color: rgba(19, 21, 17, 0.7);
+    background-color: rgba(67, 121, 13, 0.3);
     flex-direction: column;
     justify-content: center;
     align-items: center;
