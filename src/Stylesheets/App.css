@@ -1,0 +1,23 @@
+*{
+
+    box-sizing: border-box;
+}
+
+.App{
+    background-image: url('../images/mainBackground2.jpg');
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+    
+}
+
+#socialButtons{
+    display: flex;
+   
+    width: 500px;
+    justify-content: space-evenly;
+}

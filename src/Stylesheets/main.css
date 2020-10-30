@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    
+}
+
+
+#hero{
+    width:100%;
+    
+}
+
+#logo{
+    border-radius: 25px;
+    margin: 20px;
+}

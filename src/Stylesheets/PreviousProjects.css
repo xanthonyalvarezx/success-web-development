@@ -1,0 +1,39 @@
+*{
+    
+    box-sizing: border-box;
+
+}
+.projectsHeader{
+    color: rgb(67, 221, 16);
+   
+    width: 100%; 
+    
+}
+main{
+    display: flex;
+
+
+    height: 1000px;
+    color: rgb(67, 221, 16);
+    display: flex;
+    
+   
+    
+}
+
+h1{
+    background-color: black;
+    width: 100%;
+}
+
+#projectList{
+    display: flex;
+   
+    background-color: rgba(19, 21, 17, 0.7);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+
+}

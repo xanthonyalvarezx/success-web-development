@@ -1,0 +1,45 @@
+*{
+    
+        box-sizing: border-box;
+    
+}
+main{
+        display: flex;
+        height: 1000px;
+      
+        justify-content: center;
+        align-items: center;
+        
+}
+
+#contact-form{
+
+        display: flex;
+       
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+
+
+        
+
+
+}
+
+#formInputs{
+display: flex;
+flex-direction: column;
+
+width: 500px;
+color: rgb(67, 221, 16);
+font-size: 20px;
+font-weight: bolder;
+
+
+
+
+        
+}

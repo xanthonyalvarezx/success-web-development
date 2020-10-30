@@ -1,25 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
+import './Stylesheets/App.css'
+import { Button, Icon, } from "semantic-ui-react";
+import Main from './pages/Main'
+import PreviousProjects from './pages/PreviousProjects'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import Nav from './components/Nav'
+import MeetUS from './pages/meetUs';
+import Contact from './pages/ContactPage';
+
+
+class App extends Component {
+  constructor(props) {
+    super(props)
+
+
+  }
+  render() {
+    return (
+      <div className="App">
+        <Router>
+          <Nav />
+
+          <Switch>
+            <Route exact path='/' component={Main} />
+
+            <Route exact path='/Contact' component={Contact} />
+
+            <Route exact path='/Previous-Projects' component={PreviousProjects} />
+
+            <Route exact path='/Meet-us' component={MeetUS} />
+
+
+
+            
+          </Switch>
+
+        </Router>
+        <footer>
+          <div id='socialButtons'>
+        <Button color='facebook'>
+      <Icon name='facebook' /> <a href='https://www.facebook.com/Success-Web-Development-106136581297061/?notif_id=1603832810863896&notif_t=page_fan&ref=notif'>FaceBook</a>
+    </Button>
+    <Button color='instagram'>
+      <Icon name='instagram' /> Instagram
+    </Button>
     </div>
-  );
+
+        </footer>
+      </div>
+
+    );
+  }
 }
 
 export default App;

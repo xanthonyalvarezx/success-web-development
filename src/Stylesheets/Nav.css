@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+#nav-links{
+    display: flex;
+ background-color: black;
+
+    justify-content: center;
+    
+  
+
+}
+
+#navList{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    
+    width: 600px;
+     
+
+}
+
+li{
+    display: flex;
+   color: rgb(75, 232, 8);
+    margin: 0 100px 0 100px;
+    text-transform: uppercase;
+  
+    
+}
+
+li:hover{
+
+    color: greenyellow;
+    text-decoration:underline ;
+
+
+}
