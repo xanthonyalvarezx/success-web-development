@@ -20,7 +20,7 @@ return(
 
     <div>
         <header>
-            <img id='hero' src={Hero} alt='>>> print("HELLO WORLD")'/>
+            <img id='hero' src={Hero} alt='>>> print("HELLO WORLD")' />
 
         </header>
         <main>
