@@ -6,7 +6,7 @@
 main{
         display: flex;
         height: 1000px;
-      
+        
         justify-content: center;
         align-items: center;
         
@@ -15,7 +15,7 @@ main{
 #contact-form{
 
         display: flex;
-       
+        /* background-color: black; */
         height: 800px;
         justify-content: center;
         align-items: center;

@@ -1,29 +1,22 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 import Projects from '../components/Projects';
 import '../Stylesheets/PreviousProjects.css'
 
 
 
-class PreviousProjects extends Component{
+class PreviousProjects extends Component {
 
 
 
 
 
+    render() {
 
-
-
-
-
-
-
-    render(){
-        
-        return(
+        return (
             <main>
 
-                <Projects/>
+                <Projects />
             </main>
 
         )

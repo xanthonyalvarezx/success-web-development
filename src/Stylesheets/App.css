@@ -3,9 +3,10 @@
     box-sizing: border-box;
 }
 
-.App{
-    background-image: url('../images/mainBackground2.jpg');
-}
+/* .App{
+    background-color: black;
+    
+} */
 
 footer{
     display: flex;
@@ -16,8 +17,9 @@ footer{
 }
 
 #socialButtons{
-    display: flex;
-   
-    width: 500px;
+    display: flex;   
+    width: 100vw;
     justify-content: space-evenly;
+    justify-items: center;
+    
 }
