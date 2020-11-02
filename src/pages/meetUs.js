@@ -41,6 +41,10 @@ class MeetUS extends Component {
                         <li className='meetUsPhoto'>
                             <Container><img src=' https://www.placecage.com/c/200/300' alt='Placeholder' width='300px' height='300px' /><p>Mozzarella monterey jack cheese and wine. When the cheese comes out everybody's happy taleggio emmental cheese triangles cheesecake cheese triangles cow parmesan. Cheesy grin halloumi monterey jack st. agur blue cheese who moved my cheese pecorino emmental stinking bishop. Gouda caerphilly fromage frais cheese strings cottage cheese jarlsberg.</p></Container>
                         </li>
+                        
+                        <li className='meetUsPhoto'>
+                            <Container><img src=' https://www.placecage.com/c/200/300' alt='Placeholder' width='300px' height='300px'/><p>Mozzarella monterey jack cheese and wine. When the cheese comes out everybody's happy taleggio emmental cheese triangles cheesecake cheese triangles cow parmesan. Cheesy grin halloumi monterey jack st. agur blue cheese who moved my cheese pecorino emmental stinking bishop. Gouda caerphilly fromage frais cheese strings cottage cheese jarlsberg.</p></Container>
+                        </li>
 
 
                     </ul>
