@@ -11,7 +11,7 @@ import Contact from './pages/ContactPage';
 
 
 class App extends Component {
-  
+
   render() {
     return (
       <div className="App">
@@ -29,19 +29,20 @@ class App extends Component {
 
 
 
-            
+
           </Switch>
 
         </Router>
         <footer>
           <div id='socialButtons'>
-        <Button color='facebook'>
-      <Icon name='facebook' /> <a href='https://www.facebook.com/Success-Web-Development-106136581297061/?notif_id=1603832810863896&notif_t=page_fan&ref=notif'>FaceBook</a>
+            <Button color='facebook'>
+              <Icon name='facebook' />
+              <a href='https://www.facebook.com/Success-Web-Development-106136581297061/?notif_id=1603832810863896&notif_t=page_fan&ref=notif' target='blank'>FaceBook</a>
+            </Button>
+            <Button color='instagram'>
+              <Icon name='instagram' /> Instagram
     </Button>
-    <Button color='instagram'>
-      <Icon name='instagram' /> Instagram
-    </Button>
-    </div>
+          </div>
 
         </footer>
       </div>
