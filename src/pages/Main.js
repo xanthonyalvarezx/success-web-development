@@ -18,27 +18,27 @@ class Main extends Component {
     render() {
         return (
 
- ashleys-branch
-            <div>
+ 
+            <>
                 <header>
                     <img id='hero' src={Hero} alt='>>> print("HELLO WORLD")' />
+                </header>
 
   
- main
+ 
 
-                </header>
                 <main>
                     <div className='logo-image'>
                         <img id='logo' src={Logo} alt='Success Web Development logo' />
                     </div>
-
-
-
                 </main>
+            </>
 
 
 
-            </div>
+
+
+
 
 
 
