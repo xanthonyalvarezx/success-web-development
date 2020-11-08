@@ -19,9 +19,9 @@ h1 {
 
 #projectList {
   display: flex;
-
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  width: 100%;
   height: 1000px;
 }
