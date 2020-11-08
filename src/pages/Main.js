@@ -13,9 +13,7 @@ class Main extends Component {
         </header>
 
         <main>
-          <div className="logo-image">
-            <img id="logo" src={Logo} alt="Success Web Development logo" />
-          </div>
+          <img id="logo" src={Logo} alt="Success Web Development logo" />
         </main>
       </>
     );
