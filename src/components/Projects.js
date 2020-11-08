@@ -9,17 +9,16 @@ class projects extends Component {
         <header className="projectsHeader">
           <h1>Take a look at some projects the team has previously completed for other clients!</h1>
         </header>
-        <main className="projectsMain">
-          <ul id="projectList">
-            <li>Project</li>
 
-            <li>Project</li>
+        <ul id="projectList">
+          <li>Project</li>
 
-            <li>Project</li>
+          <li>Project</li>
 
-            <li>Project</li>
-          </ul>
-        </main>
+          <li>Project</li>
+
+          <li>Project</li>
+        </ul>
       </>
     );
   }
