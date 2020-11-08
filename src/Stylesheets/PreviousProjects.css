@@ -1,40 +1,27 @@
-*{
-    
-    box-sizing: border-box;
-
+* {
+  box-sizing: border-box;
 }
-.projectsHeader{
-    color: rgb(67, 221, 16);
-   
-    width: 100%; 
-    
+.projectsHeader {
+  color: rgb(67, 221, 16);
+
+  width: 100%;
 }
-main{
-    display: flex;
+.projectsMain {
+  display: flex;
 
-
-    height: 1000px;
-    color: rgb(67, 221, 16);
-    display: flex;
-    
-   
-    
+  color: rgb(67, 221, 16);
 }
 
-h1{
-    background-color: black;
-    width: 100%;
+h1 {
+  background-color: black;
+  width: 100%;
 }
 
-#projectList{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+#projectList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-   
-  
-   
-
+  height: 1000px;
 }

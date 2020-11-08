@@ -1,13 +1,9 @@
 * {
   box-sizing: border-box;
-
 }
 header {
   display: flex;
   color: rgb(67, 221, 16);
-
-  
-
 }
 main {
   display: flex;
@@ -15,11 +11,6 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
-  
-  
-  
-  
 }
 p {
   background-color: rgba(0, 0, 0, 0.755);
@@ -32,31 +23,18 @@ h1 {
   border: 1px inset rgb(67, 221, 16);
   background-color: rgba(0, 0, 0, 0.755);
   width: 100%;
-  
 }
 
-.meetUsList{
+.meetUsList {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
   flex-wrap: wrap;
-  
-  
 }
 
-.meetUsPhoto{
+.meetUsPhoto {
   display: flex;
   flex-direction: row;
- width: 300px;
- margin: 0 15px 0 2px;
- 
- 
-
+  width: 300px;
+  margin: 0 15px 0 2px;
 }
-
-
-
-
- 
-
-  
