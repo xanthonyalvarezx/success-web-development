@@ -7,6 +7,13 @@
     
 } */
 
+main {
+  height: 1000px;
+  background-image: url("../images/mainBackground.jpg");
+  background-size: 100%100%;
+  background-repeat: no-repeat;
+}
+
 footer {
   display: flex;
   height: 55px;
