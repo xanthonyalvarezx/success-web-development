@@ -19,11 +19,11 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Main} />
 
-            <Route exact path="/Contact" component={Contact} />
+            <Route path="/Contact" component={Contact} />
 
-            <Route exact path="/Previous-Projects" component={PreviousProjects} />
+            <Route path="/Previous-Projects" component={PreviousProjects} />
 
-            <Route exact path="/Meet-us" component={MeetUS} />
+            <Route path="/Meet-us" component={MeetUS} />
           </Switch>
         </Router>
         <footer>
