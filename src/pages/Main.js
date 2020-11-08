@@ -9,7 +9,7 @@ class Main extends Component {
     return (
       <>
         <header>
-          <img id="hero" src={Hero} alt='>>> print("HELLO WORLD")' />
+          <img id="hero" src={Hero} alt='>>> print("HELLO WORLD")' height="100px" width="100%" />
         </header>
 
         <main>
