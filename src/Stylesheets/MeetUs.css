@@ -21,8 +21,9 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-
+  height: 0;
   width: 100%;
+  border: 1px solid red;
 }
 
 .meetUsList {
