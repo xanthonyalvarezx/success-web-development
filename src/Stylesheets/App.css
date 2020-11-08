@@ -2,10 +2,9 @@
   box-sizing: border-box;
 }
 
-/* .App{
-    background-color: black;
-    
-} */
+.App {
+  background-color: black;
+}
 
 main {
   height: 1000px;
