@@ -3,6 +3,7 @@ import '../Stylesheets/MeetUs.css'
 import Anthony from '../images/Anthony.jpg'
 import Ashley from '../images/Ashley.jpg'
 import { Container } from 'semantic-ui-react'
+import Tyler from "../images/Tyler.jpg"
 
 class MeetUS extends Component {
 
@@ -34,7 +35,9 @@ class MeetUS extends Component {
                         </li>
 
                         <li className='meetUsPhoto'>
-                            <Container><img src=' https://www.placecage.com/c/200/300' alt='Placeholder' width='300px' height='300px' /><p>Squirty cheese croque monsieur cream cheese. Stinking bishop cheesecake smelly cheese chalk and cheese manchego smelly cheese cream cheese babybel. Queso airedale cheesy feet taleggio pepper jack rubber cheese smelly cheese brie. Lancashire fromage boursin croque monsieur cow cauliflower cheese cheeseburger roquefort. Monterey jack.</p></Container>
+                            <Container><img src={Tyler} alt="team member Tyler" width="300px" height="300px" />
+                            <p>My name is Tyler Ammons and I work here at Success Web Development.I graduated from Kenzie Academy in October 2020 with a front-end Web Development certification. I enjoy writing and listening to music, writing fiction, and learning more about Web Development.</p>
+                            </Container>
                         </li>
 
 
